@@ -1,0 +1,39 @@
+body {
+  margin: 0
+}
+
+.board {
+  margin: 20px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex: 1
+}
+
+.checker {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checker.dark {
+  background-color: black;
+  color: white;
+}
+
+.checker.light {
+  background-color: white;
+  color: black;
+}
+
+.fa {
+  font-size: 7.5vh;
+  padding: 20px;
+}
